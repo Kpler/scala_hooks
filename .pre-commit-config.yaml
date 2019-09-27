@@ -1,0 +1,17 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.2.3
+    hooks:
+       - id: check-merge-conflict
+       - id: check-yaml
+       - id: end-of-file-fixer
+       - id: trailing-whitespace
+  - repo: https://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.1.6
+    hooks:
+      - id: forbid-crlf
+      - id: remove-crlf
+  - repo: meta
+    hooks:
+      - id: check-hooks-apply
+      - id: check-useless-excludes

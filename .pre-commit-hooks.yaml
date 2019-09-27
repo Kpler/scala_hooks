@@ -1,0 +1,16 @@
+  - id: scalafmt
+    name: Scalafmt
+    description: Code formatter for Scala
+    language: script
+    entry: ./scalafmt
+    types: [scala]
+  - id: wartremover
+    name: Wartremover
+    language: script
+    entry: ./wartremover -traverser 'org.wartremover.warts.Null'
+    types: [scala]
+  - id: scalafix
+    name: Scalafix
+    language: script
+    entry: ./scalafix
+    types: [scala]
