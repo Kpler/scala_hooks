@@ -2,7 +2,7 @@
     name: Scalafmt
     description: Code formatter for Scala
     language: script
-    entry: ./scalafmt
+    entry: ./scalafmt --non-interactive
     types: [scala]
   - id: wartremover
     name: Wartremover
