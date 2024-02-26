@@ -9,8 +9,13 @@ Collection of [pre-commit](https://pre-commit.com/) hooks for scala
 ## Alternative
 
 * [pre-commit-scalafmt](https://github.com/coyainsurance/pre-commit-scalafmt)
+* Run scalafmt on compile
 
 ## How to upgrade scalafix or scalafmt ?
 
-Download the newer version with `coursier bootstrap` then commit the result
+Download the newer version with coursier then commit the result
 
+```bash
+cs bootstrap scalafmt -o scalafmt -f
+cs bootstrap scalafix -o scalafix -f
+```
