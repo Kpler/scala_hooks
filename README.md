@@ -13,4 +13,3 @@ Collection of [pre-commit](https://pre-commit.com/) hooks for scala
 ## How to upgrade scalafix or scalafmt ?
 
 Download the newer version with `coursier bootstrap` then commit the result
-
