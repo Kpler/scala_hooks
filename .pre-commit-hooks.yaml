@@ -4,13 +4,3 @@
     language: script
     entry: ./scalafmt --non-interactive
     types: [scala]
-  - id: wartremover
-    name: Wartremover
-    language: script
-    entry: ./wartremover -traverser 'org.wartremover.warts.Null'
-    types: [scala]
-  - id: scalafix
-    name: Scalafix
-    language: script
-    entry: ./scalafix
-    types: [scala]
